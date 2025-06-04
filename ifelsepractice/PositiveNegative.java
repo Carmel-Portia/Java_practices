@@ -8,12 +8,11 @@ class PositiveNegative
         int a=sc.nextInt();
         if(a>0)
         {
-            System.out.print( a +"is apositive number");
+            System.out.print( a +"is a positive number");
         }
         else
         {
             System.out.print( a +" is a negative number");
-
         }
     }
 }

@@ -6,7 +6,7 @@ class Vowel
         Scanner sc=new Scanner(System.in);
         System.out.print("enter a day:");
         String day=sc.nextLine();
-        if(day.equals("saturday")||day.equals("sunday"))
+        if(day.equalsIgnoreCase("saturday")||day.equalsIgnoreCase("sunday"))
         {
             System.out.print("it is a weekend!");
 

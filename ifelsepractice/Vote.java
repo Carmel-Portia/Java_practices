@@ -6,14 +6,18 @@ class Vote
         Scanner sc=new Scanner(System.in);
         System.out.print("enter your age:");
         int age=sc.nextInt();
-        if(age>=18)
+        if(age>=18 && age<=100)
         {
             System.out.print("is eligible for vote!");
         }
-        else
+        else if(age<18)
         {
             System.out.print("not eligible for vote!");
 
+        }
+        else
+        {
+           System.out.print("INVALID OUTPUT!");
         }
     }
 }
